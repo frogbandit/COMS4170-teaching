@@ -1,0 +1,29 @@
+div {
+	height: 300px;
+	width: 300px;
+
+	border: 4px solid black;
+}
+
+
+
+#outer {
+	height: 300px;
+	width: 150px;
+	background-color: #dddddd;
+	/*
+	position:relative;
+	*/
+	left:0px;
+	top:0px;
+}
+
+#inner {
+	height: 75px;
+	width: 75px;
+	background-color: #555555;
+	/*
+	position: absolute; 
+	bottom:0px; 
+	*/
+}

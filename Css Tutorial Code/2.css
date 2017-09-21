@@ -1,0 +1,13 @@
+table /* table element selector */
+{
+    border: 5px dashed black; 
+    background-color: blue;  
+}	
+td /* table data/cell element selector */
+{
+    background-color: black;
+    height: 50px;
+    width: 110px;
+    border: 1px dashed blue;
+}
+

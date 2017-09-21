@@ -1,0 +1,26 @@
+p {
+	font-family: Garamond, serif;
+}
+
+#id_beginning { /* id selector */
+	color: #000000;
+	font-size: 30px;
+}
+
+div p { /* descendent selector */
+	color: #098765;
+}
+
+li p {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+}
+
+.class_1 { /* class selectors */
+	font-family: Vivaldi, cursive;
+}
+
+#id_1 {
+	font-size: 50px;
+	color: #000ff0;
+}

@@ -1,0 +1,25 @@
+div {
+	height: 300px;
+	width: 300px;
+
+	border: 4px solid black;
+}
+
+
+
+#outer {
+	height: 300px;
+	width: 150px;
+	background-color: #dddddd;
+	position: fixed; 
+	left:0px;
+	top:100px; /* change to percent 20 */
+}
+
+#inner {
+	height: 75px;
+	width: 75px;
+	background-color: #555555;
+	position: fixed; 
+	top:0px; 
+}

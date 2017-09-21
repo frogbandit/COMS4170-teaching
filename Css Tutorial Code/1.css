@@ -1,0 +1,10 @@
+p {
+	color: violet;
+	font-size: 1.6em;
+}
+
+span {
+	color : green;
+	font-size: 2em;
+	font-family: "Courier New";
+}

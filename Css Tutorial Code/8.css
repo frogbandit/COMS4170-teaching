@@ -1,0 +1,37 @@
+div {
+	border-radius: 5px;
+}
+
+#head {
+	height: 50px;
+	background-color: red;
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+.l {
+	height: 300px;
+	width: 150px;
+	/*width: 70%;*/
+	background-color: blue;
+	float: left;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.r {
+	height: 300px;
+	width: 400px;
+	/*width: 30%;*/
+	background-color: green;
+	float: right;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#bottom {
+	height: 50px;
+	background-color: orange;
+    clear:right;
+	text-align: center;
+}

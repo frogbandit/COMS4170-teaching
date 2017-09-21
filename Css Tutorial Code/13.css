@@ -1,0 +1,18 @@
+h1::before { /* change to ::after */
+    content: "Heading:";
+}
+
+p::first-line { /* change to ::first-letter ? */
+    color: green;
+    font-variant: small-caps;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}

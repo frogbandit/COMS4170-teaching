@@ -1,0 +1,25 @@
+
+body > p { /* child selector, only the immediate children of an element */
+    font-weight : bold;
+    font-size : 30px;
+    color:red;
+}
+
+body > div > p 
+{
+    color : red;
+}
+
+body p /* descendant selector, all of the descendants of an element */
+{
+	color:orange;
+}
+
+
+
+ul li p 
+{
+    color: blue;
+}
+
+

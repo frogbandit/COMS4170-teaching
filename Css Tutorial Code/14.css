@@ -1,0 +1,26 @@
+/* exact string matching */
+p[id="id-beginning"] { 
+    font-size: 1.6em;
+}
+
+/* containing - does not have to be whole word*/
+p[class*="1"] { 
+    background-color: green;
+}
+
+/* beginning - does not have to be whole word*/
+p[id^="i"] { 
+    background-color: yellow;
+}
+
+/* ending - does not have to be whole word*/
+
+p[class$="2"] { 
+    background-color: red;
+}
+
+/*
+p[class] {
+    background-color: yellow;
+}
+*/

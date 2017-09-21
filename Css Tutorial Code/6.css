@@ -1,0 +1,5 @@
+div + p { /* adjacent sibling selector - same parent element, immediately following the first sibling */
+    background-color: yellow;
+}
+
+/* what if it was div ~ p, the general sibling selector? */

@@ -1,0 +1,9 @@
+
+div {
+	height: 300px;
+	width: 150px;
+	border: 12px solid black;
+	border-radius: 15px;
+	background-color: green;
+	margin:auto; /*Centers horizontally*/
+}

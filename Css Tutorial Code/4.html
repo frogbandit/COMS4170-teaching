@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="4.css"/>
+		<title>Descendant and Child Selectors</title>
+	</head>
+	<body>
+		<div>
+			<p> This is a paragraph selected by " body div > p " and is colored red
+			</p>
+
+
+			<ul>
+				<li><p>Paragraph selected by "ul li p"</p></li>
+				<li><p>But also selected by "body p"</p></li>
+			</ul>
+
+			<div> 
+				<p> I am nested inside div div p </p>
+			</div>
+
+			<p>This is "body > div > p", but it is also "body p "</p>
+		</div>
+		<p> This is "body p" </p>
+	</body>
+</html>
