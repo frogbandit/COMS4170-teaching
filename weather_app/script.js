@@ -1,4 +1,4 @@
-var KEY = YOUR_KEY_HERE;
+var KEY = '2d8efa108604f8e2a283721e34807f34';
 
 function getWeather(query){
  $.ajax({
@@ -15,7 +15,7 @@ function getWeather(query){
 
 $(document).ready(function() {
   document.getElementById('search-form').addEventListener('submit', function (e) {
-    e.preventDefault();
+    e.preventDefault(); //prevent a submit button from submitting a form.
     getWeather(document.getElementById('location').value);
 }, false);
 });
