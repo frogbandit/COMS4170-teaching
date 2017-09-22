@@ -8,6 +8,7 @@ function getWeather(query){
        appid: KEY
     },
     success: function(response){
+      console.log(response);
      $("#weather").text(response.weather[0].main);
     }
  });
